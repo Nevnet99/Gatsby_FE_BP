@@ -1,1 +1,0 @@
-# Gatsby && Styled components with theme
