@@ -1,4 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
+import NunitoBlack from '../assets/fonts/NunitoSans-Black.ttf'
+import NunitoItalic from '../assets/fonts/NunitoSans-Italic.ttf'
+import NunitoLight from '../assets/fonts/NunitoSans-Light.ttf'
 
 export const GlobalStyle = createGlobalStyle`
     /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -327,4 +330,25 @@ template {
 [hidden] {
   display: none;
 }
+
+  @font-face {
+      font-family: 'Nunito';
+      src: url('${NunitoLight}') format('truetype');
+      font-weight: 300;
+      font-style: normal;
+    }
+
+  @font-face {
+    font-family: 'Nunito';
+    src: url('${NunitoItalic}') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Nunito';
+    src: url('${NunitoBlack}') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
 `
