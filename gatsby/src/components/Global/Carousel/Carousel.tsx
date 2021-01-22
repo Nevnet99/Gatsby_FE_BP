@@ -1,18 +1,16 @@
-import React, { useState } from 'react';
-import {
-  CarouselProvider, Slider, Slide, DotGroup,
-} from 'pure-react-carousel';
+import React, { useState } from "react"
+import { CarouselProvider, Slider, Slide, DotGroup } from "pure-react-carousel"
 
-import 'pure-react-carousel/dist/react-carousel.es.css';
+import "pure-react-carousel/dist/react-carousel.es.css"
 
-import { CarouselWrapper, SlideImage } from './Carousel.styles';
+import { CarouselWrapper, SlideImage } from "./Carousel.styles"
 
 const Carousel: React.FC = () => {
-  const [carouselPosition, setCarouselPosition] = useState(0);
+  const [carouselPosition, setCarouselPosition] = useState(0)
 
-  const onCarouselIncrement = (value) => {
-    setCarouselPosition(value);
-  };
+  const onCarouselIncrement = value => {
+    setCarouselPosition(value)
+  }
 
   return (
     <CarouselWrapper>
@@ -37,7 +35,7 @@ const Carousel: React.FC = () => {
         <DotGroup />
       </CarouselProvider>
     </CarouselWrapper>
-  );
-};
+  )
+}
 
-export default Carousel;
+export default Carousel
