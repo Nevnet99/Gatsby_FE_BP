@@ -1,48 +1,46 @@
 module.exports = {
   siteMetadata: {
-    title: `Kicks`,
-    description: `Kicks online clothing sotre`,
-    author: `@Nevnet99`,
+    title: 'Kicks',
+    description: 'Kicks online clothing sotre',
+    author: '@Nevnet99',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: 'images',
+        path: `${__dirname}/src/assets/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        name: 'Kicks',
+        short_name: 'Kicks',
+        start_url: '/',
+        background_color: '#FFF',
+        theme_color: '#FFF',
+        display: 'minimal-ui',
+        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
     {
-      resolve: `gatsby-source-sanity`,
+      resolve: 'gatsby-source-sanity',
       options: {
-        projectId: `pRRweyCNo`,
-        dataset: `production`,
+        projectId: 'e5260he6',
+        dataset: 'production',
         // a token with read permissions is required
         // if you have a private dataset
-        token: process.env.dev.SANITY_TOKEN,
+        token: process.env.SANITY_TOKEN,
 
         // If the Sanity GraphQL API was deployed using `--tag <name>`,
         // use `graphqlTag` to specify the tag name. Defaults to `default`.
         graphqlTag: 'default',
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    'gatsby-plugin-typescript',
   ],
-}
+};
