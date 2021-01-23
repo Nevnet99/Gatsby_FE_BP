@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { buttonStyles } from "../../../styles/mixins/Buttons"
 import { gridStyles, minBp } from "../../../styles/mixins/mixins"
-import { logoStyles, pStyles } from "../../../styles/mixins/Typography"
+import { logoStyles } from "../../../styles/mixins/Typography"
 
 export const NavWrapper = styled.nav`
   ${gridStyles}
