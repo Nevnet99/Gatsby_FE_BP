@@ -3,6 +3,9 @@ import { buttonStyles } from "../../../styles/mixins/Buttons"
 import { gridStyles, minBp } from "../../../styles/mixins/mixins"
 import { logoStyles } from "../../../styles/mixins/Typography"
 
+export const NavSpacer = styled.div`
+  margin-bottom: 130px;
+`
 export const NavWrapper = styled.nav`
   ${gridStyles}
   position: absolute;
