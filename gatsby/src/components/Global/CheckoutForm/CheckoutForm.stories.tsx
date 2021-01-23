@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { CheckoutForm } from './CheckoutForm'
+import { CheckoutForm } from "./CheckoutForm"
 
 export default {
-  title: 'COMPONENTS/C-3 Checkout Form',
+  title: "COMPONENTS/C-3 Checkout Form",
   component: CheckoutForm,
   argTypes: {},
 }

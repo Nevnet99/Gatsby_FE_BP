@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { ThemePage } from './ThemePage'
+import { ThemePage } from "./ThemePage"
 
 export default {
-  title: 'THEME/Theme Guidelines',
+  title: "THEME/Theme Guidelines",
   component: ThemePage,
   argTypes: {},
 }

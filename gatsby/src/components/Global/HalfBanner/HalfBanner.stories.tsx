@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { HalfBanner } from './HalfBanner'
+import { HalfBanner } from "./HalfBanner"
 
 export default {
-  title: 'COMPONENTS/C-6 Half Banner',
+  title: "COMPONENTS/C-6 Half Banner",
   component: HalfBanner,
   argTypes: {},
 }

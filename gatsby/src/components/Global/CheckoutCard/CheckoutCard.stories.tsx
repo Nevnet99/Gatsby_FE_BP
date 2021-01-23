@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { CheckoutCard } from './CheckoutCard'
+import { CheckoutCard } from "./CheckoutCard"
 
 export default {
-  title: 'COMPONENTS/C-2 Checkout Card',
+  title: "COMPONENTS/C-2 Checkout Card",
   component: CheckoutCard,
   argTypes: {},
 }

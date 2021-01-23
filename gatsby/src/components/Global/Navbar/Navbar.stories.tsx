@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { Navbar } from './Navbar'
+import { Navbar } from "./Navbar"
 
 export default {
-  title: 'COMPONENTS/C-8 Navbar',
+  title: "COMPONENTS/C-8 Navbar",
   component: Navbar,
   argTypes: {},
 }

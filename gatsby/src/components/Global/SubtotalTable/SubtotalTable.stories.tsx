@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { SubtotalTable } from './SubtotalTable'
+import { SubtotalTable } from "./SubtotalTable"
 
 export default {
-  title: 'COMPONENTS/C-13 Subtotal Table',
+  title: "COMPONENTS/C-13 Subtotal Table",
   component: SubtotalTable,
   argTypes: {},
 }

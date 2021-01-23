@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { CheckoutStepper } from './CheckoutStepper'
+import { CheckoutStepper } from "./CheckoutStepper"
 
 export default {
-  title: 'COMPONENTS/C-4 Checkout Stepper',
+  title: "COMPONENTS/C-4 Checkout Stepper",
   component: CheckoutStepper,
   argTypes: {},
 }
