@@ -6,21 +6,25 @@ import {
   Logo,
   NavbarItems,
   NavButton,
+  NavSpacer,
   NavWrapper,
 } from "./Navbar.styles"
 
 export const Navbar = () => (
-  <NavWrapper>
-    <NavbarItems>
-      <Logo>Kicks.</Logo>
-      <Buttons>
-        <NavButton>Shoes</NavButton>
-        <NavButton>Clothing</NavButton>
-      </Buttons>
-      <Checkout>
-        <p>View cart</p>
-        <Icon icon="cart" />
-      </Checkout>
-    </NavbarItems>
-  </NavWrapper>
+  <>
+    <NavWrapper>
+      <NavbarItems>
+        <Logo>Kicks.</Logo>
+        <Buttons>
+          <NavButton>Shoes</NavButton>
+          <NavButton>Clothing</NavButton>
+        </Buttons>
+        <Checkout>
+          <p>View cart</p>
+          <Icon icon="cart" />
+        </Checkout>
+      </NavbarItems>
+    </NavWrapper>
+    <NavSpacer />
+  </>
 )
