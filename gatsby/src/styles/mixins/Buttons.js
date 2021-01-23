@@ -1,5 +1,5 @@
-import { css } from 'styled-components'
-import { h5Styles } from './Typography'
+import { css } from "styled-components"
+import { h5Styles } from "./Typography"
 
 export const buttonStyles = css`
   ${h5Styles}
