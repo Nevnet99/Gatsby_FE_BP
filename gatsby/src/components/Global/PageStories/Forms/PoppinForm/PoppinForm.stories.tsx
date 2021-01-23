@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { PoppinForm } from './PoppinForm'
+import { PoppinForm } from "./PoppinForm"
 
 export default {
-  title: 'Pages | Forms/Poppin Form',
+  title: "Pages | Forms/Poppin Form",
   component: PoppinForm,
   argTypes: {},
 }

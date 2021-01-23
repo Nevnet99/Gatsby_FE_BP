@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 import {
   Header2,
@@ -9,9 +9,15 @@ import {
   Paragraph,
   Button,
   StyledLink,
-} from './ThemePage.styles'
+} from "./ThemePage.styles"
 
-export const ThemePage = ({ typography, buttons, form }) => (
+interface Props {
+  typography: boolean | void
+  buttons: boolean | void
+  form: boolean | void
+}
+
+export const ThemePage: React.FC<Props> = ({ typography, buttons, form }) => (
   <div>
     {typography && (
       <>

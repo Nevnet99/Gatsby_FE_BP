@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { SizesSelector } from './SizesSelector'
+import { SizesSelector } from "./SizesSelector"
 
 export default {
-  title: 'COMPONENTS/C-12 Sizes Selector',
+  title: "COMPONENTS/C-12 Sizes Selector",
   component: SizesSelector,
   argTypes: {},
 }

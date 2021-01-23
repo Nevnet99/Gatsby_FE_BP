@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import { ProductView } from './ProductView'
+import { ProductView } from "./ProductView"
 
 export default {
-  title: 'COMPONENTS/C-11 Product View',
+  title: "COMPONENTS/C-11 Product View",
   component: ProductView,
   argTypes: {},
 }
