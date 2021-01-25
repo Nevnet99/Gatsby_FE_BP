@@ -1,4 +1,4 @@
-import React from "react"
+import React, { FC } from "react"
 import Icon from "../../Shared/Icon/Icon"
 import {
   Buttons,
@@ -10,7 +10,7 @@ import {
   NavWrapper,
 } from "./Navbar.styles"
 
-export const Navbar = () => (
+export const Navbar: FC = () => (
   <>
     <NavWrapper>
       <NavbarItems>
