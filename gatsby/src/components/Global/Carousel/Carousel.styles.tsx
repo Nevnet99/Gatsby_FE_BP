@@ -27,4 +27,5 @@ export const CarouselWrapper = styled.div`
 
 export const SlideImage = styled.img`
   width: 100%;
+  height: auto;
 `

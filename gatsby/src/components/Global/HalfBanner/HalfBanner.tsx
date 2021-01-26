@@ -11,7 +11,7 @@ import supremeImg from "../../../assets/images/supreme-city.jpeg"
 
 // No alt required as the images are decorative
 
-export const HalfBanner: FC = () => (
+const HalfBanner: FC = () => (
   <BannerWrapper>
     <BannerCard href="#">
       <CardImage alt="" src={yeezyImg} />
@@ -23,3 +23,5 @@ export const HalfBanner: FC = () => (
     </BannerCard>
   </BannerWrapper>
 )
+
+export default HalfBanner

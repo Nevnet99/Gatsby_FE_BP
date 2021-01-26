@@ -10,7 +10,11 @@ import {
   NavWrapper,
 } from "./Navbar.styles"
 
-export const Navbar: FC = () => (
+type Props = {
+  spacer?: boolean
+}
+
+const Navbar: FC<Props> = ({ spacer }) => (
   <>
     <NavWrapper>
       <NavbarItems>
@@ -25,6 +29,8 @@ export const Navbar: FC = () => (
         </Checkout>
       </NavbarItems>
     </NavWrapper>
-    <NavSpacer />
+    {spacer && <NavSpacer />}
   </>
 )
+
+export default Navbar

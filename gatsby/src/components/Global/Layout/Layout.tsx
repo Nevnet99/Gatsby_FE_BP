@@ -1,16 +1,18 @@
-import React from "react"
-import { Footer } from "../Footer/Footer"
-import { Navbar } from "../Navbar/Navbar"
+import React, { FC } from "react"
+import { ThemeProvider } from "styled-components"
+import { GlobalStyle } from "../../../styles/global"
+import { theme } from "../../../styles/theme"
+import Footer from "../Footer/Footer"
+import Navbar from "../Navbar/Navbar"
 
-interface Props {
-  children?: React.ReactNode
-}
-
-const Layout: React.FC<Props> = ({ children }: Props) => (
+const Layout: FC = ({ children }) => (
   <>
-    <Navbar />
-    {children}
-    <Footer />
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Navbar spacer={true} />
+      {children}
+      <Footer />
+    </ThemeProvider>
   </>
 )
 

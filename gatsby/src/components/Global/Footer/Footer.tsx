@@ -1,4 +1,4 @@
-import React from "react"
+import React, { FC } from "react"
 import {
   FooterColumn,
   FooterGridWrapper,
@@ -10,7 +10,7 @@ import {
   Copyright,
 } from "./Footer.styles"
 
-export const Footer = () => (
+const Footer: FC = () => (
   <StyledFooter>
     <FooterGridWrapper>
       <FooterColumn>
@@ -62,3 +62,5 @@ export const Footer = () => (
     </FooterGridWrapper>
   </StyledFooter>
 )
+
+export default Footer

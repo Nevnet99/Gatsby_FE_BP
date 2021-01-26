@@ -7,7 +7,7 @@ import {
   StyledLegend,
 } from "./SizesSelector.styles"
 
-export const SizesSelector: FC = () => {
+const SizesSelector: FC = () => {
   const sizes: number[] = [1, 5, 6, 12, 12.5, 11, 6.5, 6]
   const [selectedSize, setSelectedSize]: [
     number | null,
@@ -42,3 +42,5 @@ export const SizesSelector: FC = () => {
     </StyledFieldset>
   )
 }
+
+export default SizesSelector

@@ -10,7 +10,7 @@ import {
 
 import shoe from "../../../assets/images/product-shot.png"
 
-export const ProductView: FC = () => (
+const ProductView: FC = () => (
   <ProductViewWrapper>
     <Title>Jordan 1 Mid Royale 2020</Title>
     <ProductImageWrapper>
@@ -23,3 +23,5 @@ export const ProductView: FC = () => (
     </PriceWrapper>
   </ProductViewWrapper>
 )
+
+export default ProductView
