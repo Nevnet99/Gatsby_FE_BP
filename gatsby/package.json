@@ -15,6 +15,7 @@
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-source-sanity": "^6.0.4",
     "gatsby-transformer-sharp": "^2.6.0",
+    "path": "^0.12.7",
     "prop-types": "^15.7.2",
     "pure-react-carousel": "^1.27.6",
     "react": "^16.12.0",
@@ -30,6 +31,7 @@
     "@storybook/addon-essentials": "^6.1.11",
     "@storybook/addon-links": "^6.1.11",
     "@storybook/react": "^6.1.11",
+    "@types/node": "^14.14.22",
     "@types/styled-components": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.14.0",
@@ -45,6 +47,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gatsby-plugin-ts-config": "^1.1.5",
     "prettier": "^2.2.1"
   },
   "keywords": [

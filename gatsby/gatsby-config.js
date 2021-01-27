@@ -41,6 +41,7 @@ module.exports = {
         graphqlTag: "default",
       },
     },
+    "gatsby-plugin-ts-config",
     "gatsby-plugin-typescript",
   ],
 }
